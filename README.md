@@ -21,9 +21,18 @@ limitations are discussed along with a very detailed discussion, including the
 implementation of HTM, the machine learning problem and potential improvements for 
 future work.
 
-created from the Multiview Extended Video with Activities (MEVA), a large 
+For both tasks presented in this introduction, the same benchmark was used, and this 
+is the one created from the Multiview Extended Video with Activities (MEVA), a large 
 scale dataset whose design purpose is for activity detection multi-camera 
 environments. The benchmark is composed of three types of videos:
 - Contiguous videos.
 - Videos separated by a short interval of time (5-20 minutes)
-- Videos separated by a long interval of time (hours or even days
+- Videos separated by a long interval of time (hours or even days)
+
+
+### Download the data
+
+You can download the different videos in this [Google Drive link](https://drive.google.com/drive/folders/1z_fNoUySHeNy6CjgvWPMSP4sVuziEsR5). The annotation file is released in accordance with [IJCAI 2021 CL Challenge](https://sites.google.com/view/sscl-workshop-ijcai-2021/).
+
+### Requirements
+
