@@ -152,9 +152,62 @@ to inputs".
 
 ## Results
 
+The arguments that were chosen for this project are listed below. Those decisions were made bearing in mind a considerable amount of limitations faced in this project that can be classified into two groups: related to the project itself and related to the field of study, and are discussed in much detail in the paper.
+
 ```
 python model_v4.py -n contiguous -a './Annotation.json' -p './videos -s 30 -d 3 -e 128 -w 128 -f 5 '
 
 ```
 
+Once the data (the predictions) is represented in SDRs thanks to the RDSE encoder 
+and the Spatial Pooler algorithm has been used, it is all ready to obtain and analyse 
+the results. The primary metric that was used for the analysis is what is known as the 
+overlap score. This metric has been mentioned several times in this project, but it is 
+defined in Hawkins et al. (2016) as "the number of connected synapses with active 
+inputs multiplied by the column's boost factor".
+
+Each test label's SDR was compared against each training label's SDR, and an overlap 
+score was calculated. Labels with matching categories, in this sense, would 
+theoretically boast a higher overlap score, and labels with different categories a lower 
+score.
+
+A barplot and a heatmap of the experimental results are shwon. A summary about a potential performance to begin the 
+analysis: the higher the overlap score, the better, and vice-versa.
+
+
+#### *Barplot of the overlap score for test label's SDRs every category grouped by train label's SDRs*
+
 ![Barplot of the overlap score for test label's SDRs every category grouped by train label's SDRs](https://github.com/rubenmoray/htm-activity-recognition/blob/main/src/results_image1.png)
+
+
+#### *Heatmap of the overlap score for test label's SDRs every category grouped by train label's SDRs*
+
+![Heatmap of the overlap score for test label's SDRs every category grouped by train label's SDRs.](https://github.com/rubenmoray/htm-activity-recognition/blob/main/src/results_image2.png)
+
+
+First, it must be commented that for the videos used in the experiment, there is no label 
+with the class 3 and 5 (person_exits_through_structure and person_exits_vehicle); that 
+is why this class does not appear in the analysis.
+
+It is demonstrated that what the algorithm catches the best are vehicles moving. When 
+a vehicle starts (category 7) and stops (category 8), they outperform their first 
+competitors in an approximation of 18% and 50%, respectively. It is as well the case 
+of persons standing up (category 6) but with slightly worse results (8% approximately). 
+It can be seen both in the barplot and in the heatmap that the highest overlap scores
+for both categories match for train and test labels.
+
+However, it is not the case for the other type of categories, as it can be seen high 
+balance in the results, especially in the first three. Background (category 0) is not even 
+in the lead of its own category (being its results slightly worse than the leader, in around 
+4.4%). Person enters through structure (category 1) practically co-shares the 
+leadership (being its results slightly worse, in approximately 0.50%). Person exiting 
+vehicles (category 4) leaders its group with around 13% of difference but as it has been 
+mentioned, there is too much balance in the results. Finally, person exiting through the 
+structure (category 2) is the second in its group by a small difference but again, poor 
+overall results.
+
+An ideal scenario would be observing the heatmap, diagonal dark blue line across the 
+whole figure, which would mean that every category would have the highest overlap 
+score matching training and testing labels. That pattern can be seen on the right side 
+especially, as it has been mentioned before, but the results are still far from optimal.
+
