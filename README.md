@@ -156,3 +156,5 @@ to inputs".
 python model_v4.py -n contiguous -a './Annotation.json' -p './videos -s 30 -d 3 -e 128 -w 128 -f 5 '
 
 ```
+
+![Barplot of the overlap score for test label's SDRs every category grouped by train label's SDRs](https://github.com/rubenmoray/htm-activity-recognition/blob/main/src/results_image1.png)
