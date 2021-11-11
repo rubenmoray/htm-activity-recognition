@@ -1,4 +1,10 @@
-# htm-activity-recognition
+#   Activity Recognition for Computer Vision: A Proposed Framework for Continual Learning using Hierarchical Temporal Memory from Numenta
+
+Author: Ruben Moray Guerrero
+Date: September 2021
+Organisation: Oxford Brookes University
+
+
 
 ### 
 created from the Multiview Extended Video with Activities (MEVA), a large 
