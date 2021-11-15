@@ -29,6 +29,11 @@ environments. The benchmark is composed of three types of videos:
 
 ### Quick start
 
+First, after installing [Anaconda](https://www.anaconda.com/) the enviroment must be created using the following line of code.
+
+```
+conda env create -f htm-env.yml
+```
 
 ### Download the data
 
