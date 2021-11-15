@@ -54,10 +54,17 @@ generated.
 
 After the frames are generated, it is vital to start working with the annotation file, which 
 contains the nine different actions recognised in the videos and that served as labels: 
-'background', 'person_enter_scene_through_structure', 
-'person_exits_scene_through_structure', 'person_enters_vehicle', 
-'person_exits_vehicle', 'person_sits_down', 'person_stands_up', 'vehicle_starts' and 
-'vehicle_stops'. It also contains videos (contiguous, with a long gap and a short gap) 
+- 'background'
+- 'person_enter_scene_through_structure'
+- 'person_exits_scene_through_structure'
+- 'person_enters_vehicle'
+- 'person_exits_vehicle'
+- 'person_sits_down'
+- 'person_stands_up'
+- 'vehicle_starts'
+- 'vehicle_stops'
+
+It also contains videos (contiguous, with a long gap and a short gap) 
 annotated, representing the train release of the workshops' challenge. The validation 
 and test splits of the challenge are not annotated. 
 
