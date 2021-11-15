@@ -156,7 +156,7 @@ to inputs".
 The arguments that were chosen for this project are listed below. Those decisions were made bearing in mind a considerable amount of limitations faced in this project that can be classified into two groups: related to the project itself and related to the field of study, and are discussed in much detail in the paper.
 
 ```
-python model_v4.py -n contiguous -a './Annotation.json' -p './videos -s 30 -d 3 -e 128 -w 128 -f 5 '
+python model_v4.py -n contiguous -a './Annotation.json' -p './videos' -s 30 -d 3 -e 128 -w 128 -f 5 '
 
 ```
 
