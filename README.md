@@ -34,7 +34,6 @@ First, after installing [Anaconda](https://www.anaconda.com/) the enviroment mus
 ```
 conda env create -f htm-env.yml
 ```
-
 ### Download the data
 
 You can download the different videos in this [Google Drive link](https://drive.google.com/drive/folders/1z_fNoUySHeNy6CjgvWPMSP4sVuziEsR5). The annotation file is released in accordance with [IJCAI 2021 CL Challenge](https://sites.google.com/view/sscl-workshop-ijcai-2021/).
