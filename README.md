@@ -172,7 +172,7 @@ score was calculated. Labels with matching categories, in this sense, would
 theoretically boast a higher overlap score, and labels with different categories a lower 
 score.
 
-A barplot and a heatmap of the experimental results are shwon. A summary about a potential performance to begin the 
+A barplot and a heatmap of the experimental results are shown. A summary about a potential performance to begin the 
 analysis: the higher the overlap score, the better, and vice-versa.
 
 
@@ -215,4 +215,22 @@ especially, as it has been mentioned before, but the results are still far from 
 #### Author: Ruben Moray Guerrero
 #### Date: September 2021
 #### Organisation: Oxford Brookes University
+
+## References
+
+Cui, Y., Ahmad, S. and Hawkins, J. (2017). The HTM Spatial Pooler – a neocortical 
+algorithm for online sparse distributed coding. 10.1101/085035.
+
+Hawkins, J., Ahmad, S., Purdy, S., and Lavin, A., (2016). "Biological and machine 
+intelligence (BAMI)," Initial online release 0.4. [Online]. Available: 
+https://numenta.com/resources/biological-and-machine-intelligence/
+
+Shahbaz, A., Khan, S., Hossain, M.A., Lomonaco, V., Cannons, K., Xu, Z. and 
+Cuzzolin, F. (2021). International Workshop on Continual Semi-Supervised Learning: 
+Introduction, Benchmarks and Baselines
+
+Van der Maaten, L. and Hinton, G. (2008). Visualising data using t-SNE. Journal of 
+Machine Learning Research. 9. 2579-2605.
+
+
 
