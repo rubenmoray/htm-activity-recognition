@@ -90,13 +90,13 @@ number of frames per second to load, and it is decided to select three frames pe
 second. The resulting train matrix is composed of 1500 images (288.00MB) and the 
 test matrix of 1501 images (288.19MB).
 
-Due to memory limitations, it is decided that the size of the frames were 128x128. This
-fact is an obvious limitation as it is believed to be far from the optimal number in terms 
+Due to memory limitations, it was decided that the size of the frames were 128x128. This
+fact was an obvious limitation as it was believed to be far from the optimal number in terms 
 of quality, especially when the original images are high dimensional data (1920x1072)
 
 ### Predict and reduce
 
-Once the data is scaled and split, predictions on the test set are made. A new variable 
+Once the data was scaled and split, predictions on the test set were made. A new variable 
 called 'x_hat' was created after fitting the predictions into an embedded space and 
 returning them as a transformed output using dimensionality reduction: t-Distributed 
 Stochastic Neighbor Embedding (t-SNE), by Van der Maaten and Hinton (2008). This
@@ -107,7 +107,7 @@ variable was saved as it used in the next step.
 This step is of significant importance as it is the base to start building the base of the 
 HTM approach. The variable that was saved in the previous step that contains the 
 predictions in the desired shape and dimension is now used. The data contained in 
-those predictions is separated into three different columns. Every column was encoded 
+those predictions was separated into three different columns. Every column was encoded 
 using the already mentioned RDSE encoder, with three primary parameters: 
 
 - The **size of the column** was 2000 each, resulting in a total of 6000.
