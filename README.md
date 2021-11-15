@@ -1,9 +1,5 @@
 #   Activity Recognition for Computer Vision: A Proposed Framework for Continual Learning using Hierarchical Temporal Memory from Numenta
 
-#### Author: Ruben Moray Guerrero
-#### Date: September 2021
-#### Organisation: Oxford Brookes University
-
 
 ## Project Overview
 
@@ -30,6 +26,9 @@ environments. The benchmark is composed of three types of videos:
 - Videos separated by a long interval of time (hours or even days)
 
 ## Methodology
+
+### Quick start
+
 
 ### Download the data
 
@@ -210,4 +209,8 @@ An ideal scenario would be observing the heatmap, diagonal dark blue line across
 whole figure, which would mean that every category would have the highest overlap 
 score matching training and testing labels. That pattern can be seen on the right side 
 especially, as it has been mentioned before, but the results are still far from optimal.
+
+#### Author: Ruben Moray Guerrero
+#### Date: September 2021
+#### Organisation: Oxford Brookes University
 
