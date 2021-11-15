@@ -1,4 +1,4 @@
-#   Activity Recognition for Computer Vision: A Proposed Framework for Continual Learning using Hierarchical Temporal Memory from Numenta
+#   Activity Recognition for Computer Vision: A Proposed Framework for Continual Learning using Hierarchical Temporal Memory (HTM) from Numenta
 
 
 ## Project Overview
