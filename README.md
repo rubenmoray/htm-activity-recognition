@@ -39,8 +39,6 @@ conda env create -f htm-env.yml
 
 You can download the different videos in this [Google Drive link](https://drive.google.com/drive/folders/1z_fNoUySHeNy6CjgvWPMSP4sVuziEsR5). The annotation file is released in accordance with [IJCAI 2021 CL Challenge](https://sites.google.com/view/sscl-workshop-ijcai-2021/).
 
-### Requirements
-
 ### Preprocessing
 
 The first step when working with videos is to convert them into frames. Python offers 
